@@ -5,10 +5,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
-
 import java.io.IOException;
 import java.io.InputStream;
-
 import jxl.Cell;
 import jxl.Sheet;
 import jxl.Workbook;
@@ -37,7 +35,6 @@ public class MainActivity extends AppCompatActivity {
             {
                 Cell z = s.getCell(c, i);
                 xx = xx + z.getContents();
-
 
             }
             xx=xx+"\n";
