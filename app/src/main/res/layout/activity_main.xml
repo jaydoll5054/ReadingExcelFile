@@ -27,13 +27,5 @@
         tools:layout_editor_absoluteY="210dp"
         android:onClick="order"/>
 
-    <Button
-        android:id="@+id/Test_Button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="73dp"
-        tools:layout_editor_absoluteY="308dp"
-        android:onclick="Test_Button"/>
 
 </android.support.constraint.ConstraintLayout>
